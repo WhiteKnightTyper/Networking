@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>
+    Contact Us
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+	<link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    
+    <header>
+      
+      <section id="login">
+		<a href="login.html.html" class="main_nav">Login</a>|<a href="index.html" class="main_nav">Log Out</a>
+      </section>
+      <section id="logo">
+        <h1>
+         Candy Cravings
+        </h1>
+      </section>
+      <nav>
+        <a href="index.html" class="main_nav">  Home</a>
+          <a href="news.html" class="main_nav">News</a>
+          <a href="store.html" class="main_nav">Shop</a>
+        <a href="contact.html" class="main_nav">Contact</a>
+        <a href="admin.html" class="main_nav">Admin</a>
+      </nav>
+    </header>
+    <main>
+      <form value="post" action="" class="form">
+        <fieldset id="Contact">
+          <legend>
+            Contact Info
+          </legend>
+          <label for="fname">
+            First Name:
+          </label>
+          
+          <input type="text" name="fname" id="fname" placeholder="First name " maxlength="12" />
+          <br />
+          <label for="lname">
+            Last Name:
+          </label>
+          
+          <input type="text" name="lname" id="lname" placeholder="Last name " maxlength="18" />
+          <br />
+          <label for="add1">
+            Address 1:
+          </label>
+          
+          <input type="text" name="add1" id="add1" placeholder="Primary address " />
+          <br />
+          <label for="city">
+            City:
+          </label>
+          
+          <input type="text" name="city" id="city" placeholder="Your city " />
+          <br />
+          
+        </fieldset>
+        I perfer to be contacted by:
+        <br />
+        <label for="email">
+          Email
+        </label>
+        <input type="radio" name="contactme" value="email" id="email" />
+        
+        <label for="phone">
+          Phone
+        </label>
+        <input type="radio" name="contactme" value="phone" id="phone" />
+        <br />
+        
+        I would like more information about
+        <br />
+        <select name="moreinfo" id="moreinfo">
+          <option value="select">
+            Listbox
+          </option>
+        </select>
+        <br />
+        Comments:
+        <br />
+        <textarea rows="10" cols="80" >
+        </textarea>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+      
+    </main>
+    <footer>
+      <section id="business_name">
+        <p>
+          Something Tasty
+        </p>
+      </section>
+      <section id="date">
+        <p>
+          9/22/2014
+        </p>
+      </section>
+    </footer>
+    
+  </body>
+</html>

@@ -1,0 +1,212 @@
+html{
+background-color: #0B61A4;
+}
+body{
+max-width: 1280px;
+margin:auto;
+background-color: #FFF;
+
+font-size: 1.6em;
+height: 100%;
+border: 4px solid #FFBF00;margin-bottom: 5%;
+margin-top: 5%;
+font-family: 'Play', sans-serif;
+}
+header{
+background-color: #FFBF00;
+}
+footer{
+clear:both;
+
+background-color: #FFBF00;
+}
+h1,h2,h3,h4,h5,h6{
+color:#FF4900;
+}
+
+
+/*Header*/
+#logo{
+text-align: left;
+margin-left: 3%;
+}
+#login{
+text-align: right;
+}
+/*Navagation*/
+nav {
+text-align: center;
+margin-bottom: 2%;
+}
+nav a {
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+color: #FF4900;
+border: 2px solid #FF4900;
+background: #FFF;
+}
+#main_picture{
+width: 50%;
+margin:auto;
+}
+#mainphoto{
+
+}
+img{
+width:100%;
+}
+header h1 {
+color: #000;
+}
+#columns{
+
+
+}
+#column_1{
+float: left;
+width: 400px;
+margin-left: 26px;
+}
+#column_2{
+margin-left: 26px;
+float:left;
+width: 400px;
+
+text-align: center;
+}
+#column_3{
+margin-left: 26px;
+float:left;
+width: 400px;
+}
+footer{
+clear: both;
+}
+#date{
+
+float: right;
+display: inline-block;
+}
+#business_name{
+
+display: inline-block;
+}
+
+
+/*Products Page*/
+#product_holder {
+margin: auto;
+width: 75%;
+
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.product h4 {
+text-align: center;
+}
+.product_first h4 {
+text-align: center;
+}
+.product img {
+padding: 5px;
+width: 90%;
+margin-left: 5px;
+}
+
+.product {
+float: left;
+margin-left: 2.5%;
+width: 210px;
+border: 2px solid #FF4900;
+
+padding-top: 25px;
+}
+.product_first img {
+padding: 5px;
+width: 90%;
+margin-left: 5px;
+}
+
+.product_first {
+display: inline-block;
+margin-left: 2.5%;
+
+width: 210px;
+padding-top: 25px;
+border: 2px solid #FF4900;
+}
+/*News*/
+#archive{
+float: left;
+width: 380px;
+text-align: center;
+}
+#main_news{
+float:left;
+width: 65%;
+padding-left: 10px;
+}
+
+/*Product Desription*/
+#product_desc{
+margin-left:5%;
+float: right;
+width: 45%;
+}
+.main_product_image{
+float:left;
+width: 50%;
+}
+.product_comments{
+clear:both;
+float: left;
+width: 50%
+}
+.product_comment_form{
+float: right;
+width: 45%;
+margin-left:5%;
+}
+
+/*forms*/
+form{
+margin-left: auto;
+margin-right: auto;
+max-width: 600px;
+background: #FF4900;
+padding: 25px 15px 25px 10px;
+font: .8em Georgia, "Times New Roman", Times, serif;
+color: #FFFF66;
+
+border: 1px solid #FFBF00;
+
+}
+.form input[type="text"], .form input[type="email"], .form textarea, .form select {
+border: 1px solid #FFBF00;
+color: #888;
+height: 30px;
+margin-bottom: 16px;
+margin-right: 6px;
+margin-top: 2px;
+outline: 0 none;
+padding: 3px 3px 3px 5px;
+width: 70%;
+font-size: 12px;
+line-height: 15px;
+}
+.form label {
+display: block;
+margin: 0px;
+}
+.form fieldset {
+border: 2px solid #FFBF00;
+}
+#stories {
+    padding: 10px;
+}
+#stories td{
+    padding:5px;
+    border: 1px solid #FF4900;
+
+}
